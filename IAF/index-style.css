@@ -1,0 +1,221 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(images/officers.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+/************************ HEADER ***********************/
+header{
+	background-color: black;
+	opacity: 0.9;
+	font-family: 'Roboto Condensed', sans-serif;
+	padding-bottom: 5px;
+	z-index: 9;
+	padding-top: 5px;
+}
+
+nav{
+	margin-left: 8%;
+	
+}
+#iaf-logo-name{
+	font-size: 1.3em;
+}
+
+header div{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#header{
+	font-family: Roboto;
+}
+
+#head-div a:hover,
+#head-div a:focus{
+	text-decoration: none;
+	color: white;
+}
+
+#header-btns a:hover, 
+#header-btns a:focus{
+	text-decoration: none;
+	color: #F5B7B1;
+}
+
+#head-div a, 
+#header-btns a{
+	color: white;
+}
+
+#header-btns{
+	padding-top: 18px;
+	font-size: 1.2em;
+	margin-right: -10%;
+	font-weight: bold;
+}
+
+#menu a{
+	color: black;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#menu ul{
+	padding: 0 0;
+}
+
+#menu li{
+	padding: 8px;
+}
+
+#menu li:hover, 
+#menu li:focus{
+	background-color: #710524;
+	color: pink;
+}
+
+#menu a:hover, 
+#menu a:focus{
+	text-decoration: none;
+	color: white;
+}
+
+
+/*********************** HEADER END *******************/
+
+
+
+
+
+/******************** FOOTER *********************/
+#footer-content{
+	padding-top: 30px;
+	font-size: 0.8em;
+	background-color: black;
+	padding-bottom: 30px;
+	
+}
+
+footer .material-icons{
+	font-size: 28px;
+	color: #6c757d;
+	padding-left: 25px;
+
+}
+
+#footer-content div {
+	background-color: black;
+
+}
+
+footer{
+	background-color: black;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	font-weight: bold;
+	color: #6c757d;
+	font-size: 0.8em;
+	margin-left: 0px;
+}
+/***************** FOOTER END ********************/
+
+
+
+#main-content{
+	padding-top: 170px;
+	padding-bottom: 400px;
+	color: black;
+}
+
+/**/
+
+h1{
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#comment-line{
+	font-family: 'Seaweed Script', cursive;
+	text-align: center;
+	margin-top: 100px;
+	float: right;
+	font-size: 1.1em;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+#comment-line section{
+	
+}
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px){
+	/* header */
+	.hidden-lg{
+		display: none;
+	}
+	#header-btns{
+		font-size: 1.5em;
+	}
+	
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+
+	/* header */
+	.hidden-md{
+		display: none;
+	}
+	#header-btns{
+		font-size: 1.3em;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	/* header */
+	.hidden-sm{
+		display: none;
+	}
+	#header-btns{
+		font-size: 1.2em;
+	}
+	#iaf-logo img{
+		padding-top: 2px;
+		width: 60px;
+		height: 62px;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px){
+
+	/* header */
+	.hidden-xs{
+		display: none !important;
+	}
+	#iaf-logo img{
+		padding-top: 3px;
+		width: 58px;
+		height: 61px;
+	}
+	/* footer */
+	#footer-content{
+		padding-bottom: 50px;
+	}
+	
+}
